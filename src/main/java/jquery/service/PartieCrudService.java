@@ -3,15 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package streaming.service;
+package jquery.service;
 
 import org.springframework.data.repository.CrudRepository;
-import streaming.entity.Film;
+import jquery.entity.Partie;
 
 /**
  *
  * @author tom
  */
-public interface FilmCrudService extends CrudRepository<Film, Long>{
+public interface PartieCrudService extends CrudRepository<Partie, Long>{
     
 }

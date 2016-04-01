@@ -4,7 +4,7 @@
 <html ng-app="monApp">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Streaming</title>
+        <title>JungleSpeed</title>
         <link href="<c:url value="/CSS/style1.css"/>" rel="stylesheet" type="text/css"/>
         <script src="<c:url value="/JS/jquery-2.2.2.js"/>" type="text/javascript"></script>
         <script type="text/javascript">

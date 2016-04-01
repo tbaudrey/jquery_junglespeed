@@ -3,15 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package streaming.service;
+package jquery.service;
 
 import org.springframework.data.repository.CrudRepository;
-import streaming.entity.Genre;
+import jquery.entity.Utilisateur;
 
 /**
  *
  * @author tom
  */
-public interface GenreCrudService extends CrudRepository<Genre, Long>{
+public interface UtilisateurCrudService extends CrudRepository<Utilisateur, Long>{
+    
+//    public Utilisateur findOneByNom(String nom);
     
 }
